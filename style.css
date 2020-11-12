@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
+    /*min-height: 100%;*/
     display:flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,7 @@ body{
 
 .container{
     perspective: 1000px;
-    width:80%;
+    width:50%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +29,7 @@ body{
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px;
     min-height: 80vh;
-    width:35rem;
+    width:500px;
     background-color: white;
 }
 
